@@ -1,0 +1,127 @@
+
+/*Scrollbar CSS*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 6px;
+}
+
+.form_connexion_inscription {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.form_connexion_inscription .message_error {
+    color: red;
+    font-size: 14px;
+}
+.form_connexion_inscription  label {
+    margin: 2px 0;
+}
+.form_connexion_inscription input {
+    padding: 5px;
+    outline: 0;
+    border-radius: 6px;
+    border: 1px solid #999;
+}
+.form_connexion_inscription input[type='submit']{
+    margin-top: 20px;
+    background-color: #f2185d;
+    border: 1px solid #f2185d;
+    color: #fff;
+}
+.form_connexion_inscription .link {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.link a {
+    color: #f2185d;
+    font-size: 14px;
+    text-decoration: 0;
+}
+.link a:hover {
+    text-decoration: underline;
+}
+
+/*Chat CSS*/
+.chat {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.button-email {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Deconnexion_btn {
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #f2185d;
+    font-size: 13px;
+    text-decoration: 0;
+    border-radius: 6px;
+}
+.messages_box {
+    min-height: 360px;
+    max-height: 360px;
+    min-width: 400px;
+    margin: 10px 0;
+    overflow: auto;
+    padding: 5px 10px;
+    border-top: 1px solid #999;
+}
+.messages_box .message {
+   margin-bottom: 15px;
+   padding: 8px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   width: 350px;
+}
+.messages_box .message span {
+    font-weight: bold;
+    font-size: 14px;
+}
+.messages_box p {
+    word-break: break-all;
+    font-size: 13px
+}
+.your_message {
+    border: 1px solid #f2185d;
+    border-radius: 10px 10px 10px 0;
+}
+.your_message span {
+    color: #f2185d;
+}
+.others_message {
+    border: 1px solid #999;
+    margin-left: auto;
+    border-radius: 10px 10px 0 10px;
+}
+.others_message span {
+    color: #333;
+}
+.date {
+    color: #ccc;
+}
+.send_message {
+    border-top: 1px solid #999;
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+body {
+    
+    
+    justify-content: center;
+    
+}
